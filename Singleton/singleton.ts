@@ -22,5 +22,6 @@ var objSignleton1:Singleton = Singleton.getSingleton();
 console.log('objSingleton1.getAtrib1(): ',objSignleton1.getAtrib1());
 objSignleton1.setAtrib1('palabra1');
 console.log('objSingleton1.getAtrib1(): ',objSignleton1.getAtrib1());
+
 var objSignleton2:Singleton = Singleton.getSingleton();
 console.log('objSingleton2.getAtrib1(): ',objSignleton2.getAtrib1());
